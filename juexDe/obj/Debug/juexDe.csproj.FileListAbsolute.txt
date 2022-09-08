@@ -2,10 +2,10 @@ D:\autre\GitHub\Exercice1ProgObjet2\juexDe\bin\Debug\juexDe.exe.config
 D:\autre\GitHub\Exercice1ProgObjet2\juexDe\bin\Debug\juexDe.exe
 D:\autre\GitHub\Exercice1ProgObjet2\juexDe\bin\Debug\juexDe.pdb
 D:\autre\GitHub\Exercice1ProgObjet2\juexDe\obj\Debug\juexDe.csproj.AssemblyReference.cache
-D:\autre\GitHub\Exercice1ProgObjet2\juexDe\obj\Debug\juexDe.csproj.SuggestedBindingRedirects.cache
 D:\autre\GitHub\Exercice1ProgObjet2\juexDe\obj\Debug\juexDe.Form1.resources
 D:\autre\GitHub\Exercice1ProgObjet2\juexDe\obj\Debug\juexDe.Properties.Resources.resources
 D:\autre\GitHub\Exercice1ProgObjet2\juexDe\obj\Debug\juexDe.csproj.GenerateResource.cache
 D:\autre\GitHub\Exercice1ProgObjet2\juexDe\obj\Debug\juexDe.csproj.CoreCompileInputs.cache
 D:\autre\GitHub\Exercice1ProgObjet2\juexDe\obj\Debug\juexDe.exe
 D:\autre\GitHub\Exercice1ProgObjet2\juexDe\obj\Debug\juexDe.pdb
+D:\autre\GitHub\Exercice1ProgObjet2\juexDe\obj\Debug\juexDe.csproj.SuggestedBindingRedirects.cache

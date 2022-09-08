@@ -16,7 +16,7 @@ namespace juexDe
         public string TypeDe { get => typeDe;}
         public List<int> Faces { get => faces;}
 
-        protected De(int nbFace, string typeDe)
+        public De(int nbFace, string typeDe)
         {
             this.nbFace = nbFace;
             this.typeDe = typeDe;
@@ -26,15 +26,16 @@ namespace juexDe
                 Faces.Add(valeurFace);
             }
         }
-
+        public abstract void ModifierProbalite(List<int> faces);
         public virtual int Brasser()
         {
             Random random = new Random();
-            int indexChiffre = random.Next(0, Faces.Count);
-            return indexChiffre;
+
+            int indexTirage = random.Next(Faces.Count);
+            int tirage = Faces[indexTirage];
+            return tirage;
         }
-        public abstract void ModifierProbalite(List<int> faces);
 
 
-    }
+     }
 }

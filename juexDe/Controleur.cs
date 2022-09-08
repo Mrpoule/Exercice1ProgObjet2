@@ -25,23 +25,29 @@ namespace juexDe
         }
         public List<string> BrasserLesDes()
         {
-            De deChoisie;
-            Random random = new Random();
             List<string> resultats = new List<string>();
 
-            int indexDe=random.Next(des.Count);
-            deChoisie = des[indexDe];
+            De deChoisie = deAleoatoire();
             resultats.Add(deChoisie.TypeDe);
 
-            int indexTirage=random.Next(deChoisie.Faces.Count);
-            int tirage = deChoisie.Faces[indexTirage];
-            resultats.Add(tirage.ToString());
+            resultats.Add(deChoisie.Brasser().ToString());
 
-            total += tirage;
+            total += deChoisie.Brasser();
             resultats.Add(total.ToString());
 
             return resultats;
             
+        }
+
+        private De deAleoatoire()
+        {
+            De deChoisie;
+            Random random = new Random();
+
+            int indexDe = random.Next(des.Count);
+            deChoisie = des[indexDe];
+
+            return deChoisie;
         }
 
     }
